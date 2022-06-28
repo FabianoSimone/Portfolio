@@ -1,187 +1,373 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Portfolio Fabiano Simone</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Introduzione</a></li>
-							<li><a href="#one">Portfolio</a></li>
-							<li><a href="#two">Linguaggi</a></li>
-							<li><a href="#three">Contattami</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio di Fabiano Simone</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>Benvenuto/a nel mio Portfolio</h1>
-							<p> Sono Fabiano Simone e attualmente sono un junior developer.
-								Clicca  <a target="_blank" href="assets/documents/Curriculum vitae - Portfolio.pdf">sul mio CV</a><br />
-							per avere più dettagli oppure esplora il mio Portfolio.</p>
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Esplora il Portfolio</a></li>
-							</ul>
-						</div>
-					</section>
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-						 <!-- 	<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>  -->
-							<div class="content">
-								<div class="inner">
-									<h2>Industry 4.0</h2>
-									<p>Sviluppato completamente il back-end tramite C# (.NET 5.0) di una demo per un portale gestionale dell'industry 4.0.</p>
-									<ul class="actions">
-										<li><a href="assets/projects/Industry 4.0 - BE.zip" class="button">Scarica back-end</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-						<section>
-						
-							<div class="content">
-								<div class="inner">
-									<h2>Libreria</h2>
-									<p>Sviluppato completamente il front-end tramite Angular di una demo per una libreria online.</p>
-									<ul class="actions">
-										<li><a href="assets/projects/Libreria 2.0 FE.zip" class="button">Scarica front-end</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-						<section>
-							
-							<div class="content">
-								<div class="inner">
-									<h2>Autoscuola Bussola</h2>
-									<p>Sviluppato l'intera demo (full stack) di una autoscuola tramite: SQL Server, C# (.NET 5.0) e Angular. </p>
-									<ul class="actions">
-										<li><a href="assets/projects/Video - Autoscuola.mp4" class="button">Guarda il video</a></li>
-									
-									</ul>
-								</div>
-							</div>
-						</section>
-						
-						<!-- Aggiungi section -->
-					</section>
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Linguaggi</h2>
-							<p>Durante le superiori e sopratutto durante il corso "Cloud developer" presso ITS Incom ho avuto l'occasione di studiare diverse tecnologie. Le più importanti sono:</p>
-							<div class="features">
-								<section>
-									<img src="images/C-sharp.png" alt="" data-position="center center" />
-									<p>Versione .NET 5.0.</p>
-								</section>
-								<section>
-									<img src="images/Azure.png" alt="" data-position="center center" />
-									<p>Portale di Azure e Azure DevOps.</p>
-								</section>
-								<section>
-									<img src="images/Angular.png" alt="" data-position="center center" />
-									<p>Insieme a HTML5, CSS e TypeScript.</p>
-								</section>
-								<section>
-									<img src="images/SQL Server.png" alt="" data-position="center center" />
-									<p>DDL, DML, DCL e DQL.</p>
-								</section>
-							
-							
-							</div>
-							
-						</div>
-					</section>
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Contattami</h2>
-							<p>Non esitare a contattarmi. Puoi inviarmi una email tramite questo form oppure scrivermi direttamente su LinkedIn.</p>
-							<div class="split style1">
-								<section>
-									<form action="https://formspree.io/f/mwkyjakj"
-									method="POST">
-										<div class="fields">
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="email" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Messaggio</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
 
-										<button type="submit">Invia messaggio</button>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										
-									<!--
 
-											<li>
-											<h3>Email</h3>
-											<a href="mailto:"></a>
-										</li>
-									-->
-										
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												 
-												<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
-												<li><a target="_blank" href="https://www.linkedin.com/in/fabiano-simone/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
+ 
 
-			</div>
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Portfolio di Fabiano Simone</li>
-						<li> <a target="_blank" href="assets/documents/Curriculum vitae - Portfolio.pdf">Curriculum vitae</a> </li>
-					</ul>
-				</div>
-			</footer>
+    <!-- Header Start -->
+    <div class="container-fluid bg-light my-6 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h3 class="text-primary mb-3">Sono</h3>
+                    <h1 class="display-3 mb-3">Fabiano Simone</h1>
+                    <h2 class="typed-text-output d-inline"></h2>
+                    <div class="typed-text d-none">Junior Developer, Motociclista
+                        </div>
+                    <div class="d-flex align-items-center pt-5">
+                        <a href="assets/documents/Curriculum vitae - Portfolio.pdf" target="_blank" class="btn btn-primary py-3 px-4 me-5">Download CV</a>
+                       <!--
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+                         <button type="button" class="btn-play" data-bs-toggle="modal"
+                            data-src=" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="ms-4 mb-0 d-none d-sm-block">Play Video</h5>
 
-	</body>
+                       -->
+                    </div>
+                </div>
+               <!--
+                 <div class="col-lg-6">
+                    <img class="img-fluid" src="img/profile.png" alt="">
+                </div>
+               -->
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Video Modal Start -->
+
+    <!--
+
+        <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    -->
+    
+    <!-- Video Modal End -->
+
+
+
+
+    <!-- Expertise Start -->
+    <div class="container-xxl py-6 pb-5" id="skill">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-5">Skills & Esperienze</h1>
+                   <!--  <p class="mb-4">Skills che uso frequentemente:</p> -->
+                    <h3 class="mb-4">Skills utilizzate maggiormente</h3>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">C#</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">SQL Server</h6>
+                                    <h6 class="font-weight-bold">75%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Angular</h6>
+                                    <h6 class="font-weight-bold">75%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-red" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                           
+                           
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Azure</h6>
+                                    <h6 class="font-weight-bold">70%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-blu" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">HTML</h6>
+                                    <h6 class="font-weight-bold">70%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">CSS</h6>
+                                    <h6 class="font-weight-bold">65%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar  bg-info" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Esperienze</button>
+                        </li>
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Istruzione</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Junior developer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">07/2022 - attuale</p>
+                                    <h6 class="mb-0">Reti</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Stage</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">01/2022 - 06/2022</p>
+                                    <h6 class="mb-0">Reti</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Stage</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">07/2021</p>
+                                    <h6 class="mb-0">Tesar</h6>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Corso Cloud developer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2020 - 2022</p>
+                                    <h6 class="mb-0">ITS Incom</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Diploma informatica e telecomunicazioni</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2020</p>
+                                    <h6 class="mb-0">ITIS Giulio Riva</h6>
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Expertise End -->
+
+
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-6 pt-5" id="project">
+        <div class="container">
+            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">I miei progetti</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
+                        <li class="mx-3 active" data-filter="*">Tutti i progetti</li>
+                        <li class="mx-3" data-filter=".first">Full stack</li>
+                        <li class="mx-3" data-filter=".second">Back-end</li>
+                        <li class="mx-3" data-filter=".third">Front-end</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="assets/img/Autoscuola.jpeg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/projects/Video - Autoscuola.mp4" target="_blank"><i class="bi bi-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item third">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="assets/img/Libreria.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/projects/Libreria 2.0 FE.zip"><i class="bi bi-download"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="assets/img/Industry-4-0.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="assets/projects/Industry 4.0 - BE.zip"><i class="bi bi-download"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+   
+               
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+
+
+
+
+
+    <!-- Contact Start -->
+    <div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Contattami</h1>
+                </div>
+               
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                   
+                    <p class="mb-2">Social:</p>
+                    <div class="d-flex pt-2">
+                        
+                        <a class="btn btn-square btn-primary me-2" target="_blank" href="https://www.linkedin.com/in/fabiano-simone/" ><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <p class="mb-4">Non esitare a contattarmi. Puoi inviarmi una email tramite questo form oppure scrivermi direttamente su LinkedIn.</p>
+                    <form action="https://formspree.io/f/mwkyjakj"
+                    method="POST">
+                        <div class="row g-3">
+                            
+                            <div class="col-md-12">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email"   name="email" >
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+            
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control"  name="message" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Messaggio</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary py-3 px-5" type="submit">Invia messaggio</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+
+
+
+   
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
 </html>
